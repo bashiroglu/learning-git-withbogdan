@@ -1,0 +1,5 @@
+git initialized in .git folder not current folder(kinda how git works) learning-git-withbogdan/.git/
+By default there are will be config, description, HEAD files, info, objects, hooks, refs dirs
+There are 4 kinds of objects in git. Blob, tree, commit, annotated tag. 
+Blob store all files, tree information about dirs, commit store different version of our project,
+annotated tag persistent text pointer to spesific commit
