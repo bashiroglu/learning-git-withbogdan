@@ -9,3 +9,4 @@ discard changes in vs code means , change file to previous version(previous vers
 git commit -m <message> -a (this means changes firstly will be added to staged area)
 
 
+
