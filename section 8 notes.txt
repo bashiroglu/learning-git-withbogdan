@@ -1,0 +1,16 @@
+we have 2 kinda merging 1. fast-forward merge 2. 3 ways merge
+
+in every merge we need to 
+1. create new branch 
+2. change files and commit changes
+3. checkout main branch 
+4. command merge process by -git merge feture-branchName 
+
+Please remember that Git itself will decide which way to use depends on whether you have
+new commits in you branch or not
+
+1. fast-forward merge: this is possible when we don't have new commits 
+after creating new branch in master branch. And in this case, we are supposed to be
+in master(HEAD> Master) we simply change master and Head to last commit of new Branch
+
+2. 
