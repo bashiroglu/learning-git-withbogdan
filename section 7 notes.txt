@@ -1,0 +1,11 @@
+git clone <linkofgithuprepo> -clone and create folder which contain all files in gitgup repo 
+
+please note that when we download repo from githup, we don't get 
+git files(in hiddem git folder) of remote repo
+
+discard changes in vs code means , change file to previous version(previous version in last commit)
+
+
+git commit -m <message> -a (this means changes firstly will be added to staged area)
+
+
