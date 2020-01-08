@@ -7,6 +7,7 @@ discard changes in vs code means , change file to previous version(previous vers
 
 
 git commit -m <message> -a (this means changes firstly will be added to staged area)
+ When we have new pages, it is not working, it works with only modified files
 
 
 
