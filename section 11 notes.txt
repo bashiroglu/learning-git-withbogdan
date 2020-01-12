@@ -19,7 +19,8 @@ git config amend --author="Name of Githubber<Email of Githubber>"
 
 After commits, let's say we want to push our local commits of particular Branch to Github
 but we don't have upstream branch of particular Branch, that is why we need to set firstly 
-by commanding "git --set-upstream NameOfOrigin Name of Branch"(--set-upstream = -u)
+by commanding "git --set-upstream  <Name of Branch> <Name Of Origin>" (--set-upstream = -u)
+(git push --set-upstream origin useritem)
 
 after creating the remote upstream branch, we get link in command line and we can create new 
 pull request by going that link. 
