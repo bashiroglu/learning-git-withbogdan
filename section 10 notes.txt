@@ -42,6 +42,12 @@ git pull -v -pulling by observing process of pulling
 merge which happens while pulling is the same with normal merge, again there is 2 options 
 3 ways and fast-forward
 
+When we merge pull from remote, we can face confilicts, resolution of confilicts is the same. 
+
+Remember that after pulling, we have push to reflect what we have locally. 
+
+
+
 
 
 
