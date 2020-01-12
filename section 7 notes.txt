@@ -1,7 +1,7 @@
-git clone <linkofgithuprepo> -clone and create folder which contain all files in gitgup repo 
+git clone <link of Github repo> -clone and create folder which contain all files in github repo 
 
-please note that when we download repo from githup, we don't get 
-git files(in hiddem git folder) of remote repo
+please note that when we download repo from github, we don't get 
+git files(in hidden git folder) of remote repo
 
 discard changes in vs code means , change file to previous version(previous version in last commit)
 
