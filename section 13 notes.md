@@ -1,21 +1,13 @@
-# Forks and contribution to the public repositories
+# Git Tags
 
-We can fork any public repo and when we fork we own the same repo files (files were exist when we fork). But that new our own repo won't have any connection with its parent(where we forked) repo. In order to have connection, we have to explicitily make connection. For that we can another remote server(when we create we will have only one origin (point to our remote repo))
+Git tags are kinda special names for branches. Difference from branches names is that tag names don't move while branche names are moving. Tags are mostly used for versions of website, they are created before releases(merging to master).
 
-```bash
-git remote add upstream(name of new remote server) link of forked repo
-```
+When we talk about git tags, we need to talk about CI & CD too.
 
-we made connection but we don't have files(new files, the files which are added after we fork) yet.
+Continuous integration and Continuous delivery(continuous deployment).
+In this principle, software develop continuously. There are 2 environments in this kinda development. Staging and Production. Staging is for testing and developing the software but Production env is for clients only, and merging in that env is only allow a few people and after many tests, because of these reasons only a few merging is seen in a month.
 
-in order to get files, we are supposed to pull the files (changed files) from forked repo
+Semantic versioning is method to name software versions.
+v 1.0.2 1(major release) 0 (minor release) 2 (patch release)
 
-```bash
-git pull upstream master
-```
-
-Remeber when we pull we actaully fetch, then merge. We got our files but our own repo is still unupdated, in order to update it, we have to push our files there
-
-```bash
-git push
-```
+There are 2 types of tags, annotated tag is tag with author name and date, lightweight text is without author name and date.
