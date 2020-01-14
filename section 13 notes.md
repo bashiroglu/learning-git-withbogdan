@@ -11,3 +11,5 @@ Semantic versioning is method to name software versions.
 v 1.0.2 1(major release) 0 (minor release) 2 (patch release)
 
 There are 2 types of tags, annotated tag is tag with author name and date, lightweight text is without author name and date.
+
+Lightweight tag files simply point to commit and they are not pushed to remote by default.
